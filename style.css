@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(119, 233, 119);
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    background-color: white;
+    /* height: 50vh; */
+    width: 95vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.heading{
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-top: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.heading p{
+    padding: 5px 0px;
+}
+.form-group{
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-top: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.prety-btn{
+    border-radius: 15px;
+    margin: 4vw;
+    border-color: white;
+    padding: 5px 18px;
+}
+.prety-btn:hover{
+   cursor: pointer;
+   opacity: .85;
+}
+.form-group button:hover{
+   cursor: pointer;
+   opacity: .85;
+}
+.form-group button{
+    /* width: 4.5vw; */
+    padding: 6px 18px;
+    background-color: rgb(8, 153, 250);
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+}
+.form-group input{
+    width: 20vw;
+    padding: 3px;
+}
+.userInput{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.userInput ul li{
+    padding: 5px;
+}
+.buttons{
+    height: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#complete-btn{
+    background-color: rgb(8, 153, 250);
+    color: white;
+}
+#empty-btn{
+    background-color: brown;
+    color: white;
+
+}
+#save-btn{
+    background-color: green;
+    color: white;
+
+}
+.delete{
+    display: none;
+}
